@@ -8,13 +8,13 @@ export const metadata: Metadata = {
 
 export default function PastWorkPage() {
   return (
-    <div className="max-w-[680px] mx-auto px-[18px] py-7 pb-12">
+    <div className="max-w-[900px] mx-auto px-[18px] py-7 pb-12">
       <Header variant="page" />
 
       <h2 className="text-[24px] font-bold mb-6">Past Work</h2>
 
-      <div className="space-y-6 text-gray-700">
-        <div>
+      <div className="space-y-4 text-gray-700">
+        <div className="border border-gray-200 rounded-lg p-4">
           <h3 className="font-semibold text-gray-900">
             Excel for Investors, Bridgewater Associates
           </h3>
@@ -28,7 +28,7 @@ export default function PastWorkPage() {
           </p>
         </div>
 
-        <div>
+        <div className="border border-gray-200 rounded-lg p-4">
           <h3 className="font-semibold text-gray-900">
             Legacy Investment Platform, Bridgewater Associates
           </h3>
@@ -43,7 +43,7 @@ export default function PastWorkPage() {
           </p>
         </div>
 
-        <div>
+        <div className="border border-gray-200 rounded-lg p-4">
           <h3 className="font-semibold text-gray-900">
             Startup Stuff, Luminous Computing
           </h3>
@@ -55,7 +55,7 @@ export default function PastWorkPage() {
           </p>
         </div>
 
-        <div>
+        <div className="border border-gray-200 rounded-lg p-4">
           <h3 className="font-semibold text-gray-900">
             NQE, Forward Networks
           </h3>

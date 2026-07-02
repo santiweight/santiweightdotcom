@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function PokerStudyPage() {
   return (
-    <div className="max-w-[680px] mx-auto px-[18px] py-7 pb-12">
+    <div className="max-w-[900px] mx-auto px-[18px] py-7 pb-12">
       <Header variant="page" />
 
       <h2 className="text-[24px] font-bold mb-2.5">
