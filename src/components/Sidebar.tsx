@@ -26,7 +26,7 @@ export default function Sidebar() {
       <h1 className="font-bold text-[22px] md:text-center whitespace-nowrap">
         Santi Weight
       </h1>
-      <div className="flex items-center gap-3">
+      <div className="flex items-center justify-center gap-3 -mt-2">
         <a
           href="https://linkedin.com/in/YOUR_LINKEDIN"
           target="_blank"
