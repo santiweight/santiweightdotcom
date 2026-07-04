@@ -23,10 +23,8 @@ export default function Sidebar() {
         className="hidden md:block self-center rounded-full object-cover w-24 h-24 bg-gray-200"
         priority
       />
-      <h1 className="font-bold text-[22px] md:text-center">
-        <Link href="/" className="hover:underline">
-          Santi Weight
-        </Link>
+      <h1 className="font-bold text-[22px] md:text-center whitespace-nowrap">
+        Santi Weight
       </h1>
       <div className="flex items-center gap-3">
         <a
