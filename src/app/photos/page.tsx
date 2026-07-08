@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import Header from "@/components/Header";
 import Lightbox from "@/components/Lightbox";
 
 const hollisPhotos = [
@@ -29,10 +28,7 @@ export default function PhotosPage() {
 
   return (
     <>
-      <div className="max-w-[900px] mx-auto px-[18px] py-7 pb-12">
-        <Header variant="page" />
-
-        <h2 className="text-[24px] font-bold mb-6">Photos</h2>
+      <h2 className="text-[24px] font-bold mb-6">Photos</h2>
 
         <section className="mb-8">
           <h3 className="text-lg font-semibold mb-4">Hollis</h3>
@@ -75,7 +71,6 @@ export default function PhotosPage() {
             ))}
           </div>
         </section>
-      </div>
 
       {selectedPhoto && (
         <Lightbox

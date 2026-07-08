@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Header from "@/components/Header";
 
 export const metadata: Metadata = {
   title: "Poker Research Study (Paid)",
@@ -9,9 +8,7 @@ export const metadata: Metadata = {
 
 export default function PokerStudyPage() {
   return (
-    <div className="max-w-[900px] mx-auto px-[18px] py-7 pb-12">
-      <Header variant="page" />
-
+    <>
       <h2 className="text-[24px] font-bold mb-2.5">
         Poker Research Study (Paid)
       </h2>
@@ -64,6 +61,6 @@ export default function PokerStudyPage() {
           santiago.weight@gmail.com
         </a>
       </p>
-    </div>
+    </>
   );
 }

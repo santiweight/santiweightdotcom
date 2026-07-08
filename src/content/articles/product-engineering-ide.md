@@ -248,7 +248,7 @@ You don't want to be an app that hosts a text interface (that's not sticky at al
 
 ### Ideas
 
-Enabling non-technical investors to explore ideas with natural language and trade on those ideas. The intermediate language is a format for expressing technical analyses in a level of abstraction above Pandas. The compilation strategy would be an agent. (note: this is what we basically did with [AI Analyst](TODO LINK))
+Enabling non-technical investors to explore ideas with natural language and trade on those ideas. The intermediate language is a format for expressing technical analyses in a level of abstraction above Pandas. The compilation strategy would be an agent. (note: this is what we basically did with [AI Analyst](https://www.youtube.com/watch?v=lXZb21CfeIY&t=1007))
 
 Enabling Software Architects to build software *at the architecture level*. The intermediate language would probably be some mixture of graphs and function signatures, and the compilation strategy would be an agent.
 

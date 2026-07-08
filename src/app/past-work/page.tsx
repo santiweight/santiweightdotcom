@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Header from "@/components/Header";
 
 export const metadata: Metadata = {
   title: "Past Work — Santi Weight",
@@ -8,9 +7,7 @@ export const metadata: Metadata = {
 
 export default function PastWorkPage() {
   return (
-    <div className="max-w-[900px] mx-auto px-[18px] py-7 pb-12">
-      <Header variant="page" />
-
+    <>
       <h2 className="text-[24px] font-bold mb-6">Past Work</h2>
 
       <div className="space-y-4 text-gray-700">
@@ -67,6 +64,6 @@ export default function PastWorkPage() {
           </p>
         </div>
       </div>
-    </div>
+    </>
   );
 }
