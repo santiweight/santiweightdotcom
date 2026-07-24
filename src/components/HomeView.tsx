@@ -7,27 +7,30 @@ export default function HomeView() {
         <p>
           I am a 0&nbsp;
           <span className="text-gray-400 font-mono">&rarr;</span>
-          &nbsp;1 startup guy, who specializes in productivity tools across
-          niches (networking, poker, AI supercomputing).
+          &nbsp;1 startup guy. I&apos;m very good in hyper-ambiguous greenfield
+          projects + research. Recently built Bridgewater&apos;s AI Analyst.
         </p>
         <p>
-          I am actively looking for collaborators to build things with right
-          now! Let&apos;s chat on Zoom, or meet in person if you&apos;re in
-          NYC.
+          Nowadays thinking about teen suicide rates: I was an acutely depressed young
+          boy as many are, and I am thinking about how to help boys like me.
+        </p>
+        <p>
+          Don&apos;t be shy &mdash; I like meeting people...
         </p>
         <p className="pl-4">
-          Land time (excited to chat and connect) &rarr;{" "}
-          <a
-            href="https://calendly.com/santiago-weight"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline"
-          >
-            Calendar
-          </a>
+          <em>
+            <a
+              href="https://calendly.com/santiago-weight"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              Book time with me (open calendar)
+            </a>
+          </em>
         </p>
         <p className="pl-4 flex flex-wrap items-center gap-x-2 gap-y-1">
-          Contact me &rarr;
+          <em>Contact me on socials</em> &rarr;
           <span className="inline-flex items-center gap-2.5">
             <a
               href="https://www.linkedin.com/in/santi-weight"
@@ -103,6 +106,28 @@ export default function HomeView() {
         </p>
 
         <div className="mt-12 border border-gray-200 rounded-lg p-4">
+          <h3 className="font-semibold text-gray-900">
+            Harbor Mentors, Personal &mdash;{" "}
+            <a
+              href="https://harbormentors.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline font-normal"
+            >
+              harbormentors.com
+            </a>
+          </h3>
+          <div className="mt-2 space-y-2">
+            <p>
+              When I was depressed as a teen, there were professionals, but{" "}
+              <em>no one who understood me</em>. I&apos;m building a network of
+              mentors who understand those problems but have come out the other
+              side like me.
+            </p>
+          </div>
+        </div>
+
+        <div className="border border-gray-200 rounded-lg p-4">
           <div className="flex flex-col sm:flex-row gap-4">
             <div className="sm:w-2/3">
               <h3 className="font-semibold text-gray-900">
