@@ -1,22 +1,24 @@
 import React from "react";
 import Header from "@/components/Header";
+import Sidebar from "@/components/Sidebar";
 
 export interface RootLayoutShellProps {
   children?: React.ReactNode;
-  /** CSS class names applied to the outer wrapper (replaces body-level font vars) */
   className?: string;
 }
 
-/** Presentational shell — header + main content area, no html/body tags. */
 export default function RootLayoutShell({
   children,
   className = "",
 }: RootLayoutShellProps) {
   return (
     <div className={className}>
-      <div className="max-w-[900px] mx-auto px-[18px] py-7 pb-12">
+      <div className="max-w-[1000px] mx-auto px-[18px] py-7 pb-12">
         <Header />
-        <main>{children}</main>
+        <div className="flex gap-8">
+          <Sidebar />
+          <main className="min-w-0 flex-1 border-l border-gray-200 pl-8">{children}</main>
+        </div>
       </div>
     </div>
   );
