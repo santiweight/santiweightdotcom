@@ -21,7 +21,7 @@ export default function RootLayoutShell({
         <div className="sm:hidden mb-6">
           <Header />
         </div>
-        <main className="min-w-0 flex-1 sm:border-l sm:border-gray-200 sm:pl-8 overflow-y-auto">{children}</main>
+        <main className="min-w-0 flex-1 sm:border-l sm:border-gray-200 sm:pl-8 sm:pt-4 overflow-y-auto">{children}</main>
       </div>
     </div>
   );

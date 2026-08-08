@@ -138,12 +138,12 @@ export default function CoworkerReviews() {
           <p>
             Each &ldquo;dot&rdquo; is a snippet into someone reflecting on
             working with me. The overall gist of mine is: people like working
-            with me(!) and I have my moments of impatience that burn folks ({" "}
+            with me(!) and I have my moments of impatience that burn folks (
             <a
               href="#dot-35"
               className="text-blue-600 hover:underline"
             >
-              the one from my manager is iconic
+              this one
             </a>
             ). I&apos;ve anonymized
             everything.

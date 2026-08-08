@@ -5,17 +5,22 @@ export default function HomeView() {
     <section>
       <div className="space-y-3 text-gray-700">
         <p>
-          I am a 0&nbsp;
+          I&apos;m a 0&nbsp;
           <span className="text-gray-400 font-mono">&rarr;</span>
-          &nbsp;1 startup guy. I&apos;m very good in hyper-ambiguous greenfield
-          projects + research. Recently built Bridgewater&apos;s AI Analyst.
+          &nbsp;1 startup guy. I&apos;m good in ambiguity and greenfield.
         </p>
         <p>
-          Nowadays thinking about teen suicide rates: I was an acutely depressed young
-          boy as many are, and I am thinking about how to help boys like me.
+          Recently built Bridgewater Associates&apos; (world&apos;s largest
+          hedge fund) AI Analyst, and spoke on it.
         </p>
         <p>
-          Don&apos;t be shy &mdash; I like meeting people...
+          Currently thinking about teen suicide and the men&apos;s loneliness
+          epidemic. I was a deeply depressed teen, and I want to help boys who
+          are suffering like I did.
+        </p>
+        <hr className="border-gray-200" />
+        <p>
+          Book a time with me! I&apos;m not shy and love meeting people :)
         </p>
         <p className="pl-4">
           <em>
@@ -25,7 +30,7 @@ export default function HomeView() {
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline"
             >
-              Book time with me (open calendar)
+              Open calendar
             </a>
           </em>
         </p>
