@@ -6,13 +6,14 @@ import { usePathname } from "next/navigation";
 const items = [
   { label: "Home", href: "/" },
   { label: "Resume", href: "/resume", newTab: "/resume.pdf" },
+  { label: "Coworker Reviews", href: "/coworker-reviews" },
 ];
 
 export default function Sidebar() {
   const pathname = usePathname();
 
   return (
-    <nav className="hidden sm:block w-[140px] flex-shrink-0 pt-1 pl-2">
+    <nav className="pt-1">
       <ul className="space-y-1">
         {items.map(({ label, href, newTab }) => {
           const active = pathname === href;
@@ -23,8 +24,8 @@ export default function Sidebar() {
                   href={href}
                   className={`flex-1 rounded-md px-3 py-1.5 text-sm transition-colors ${
                     active
-                      ? "bg-gray-100 text-gray-900 font-medium"
-                      : "text-gray-500 hover:text-gray-900 hover:bg-gray-50"
+                      ? "bg-gray-900 text-white font-medium"
+                      : "text-gray-500 hover:text-gray-900 hover:bg-gray-100"
                   }`}
                 >
                   {label}

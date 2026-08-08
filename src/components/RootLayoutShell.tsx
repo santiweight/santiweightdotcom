@@ -13,12 +13,15 @@ export default function RootLayoutShell({
 }: RootLayoutShellProps) {
   return (
     <div className={className}>
-      <div className="max-w-[1000px] mx-auto px-[18px] py-7 pb-12">
-        <Header />
-        <div className="flex gap-8">
+      <div className="max-w-[1000px] mx-auto px-[18px] sm:pl-2 py-7 pb-12 h-dvh flex flex-col sm:flex-row sm:gap-8">
+        <div className="hidden sm:flex flex-col w-[220px] flex-shrink-0">
+          <Header />
           <Sidebar />
-          <main className="min-w-0 flex-1 border-l border-gray-200 pl-8">{children}</main>
         </div>
+        <div className="sm:hidden mb-6">
+          <Header />
+        </div>
+        <main className="min-w-0 flex-1 sm:border-l sm:border-gray-200 sm:pl-8 overflow-y-auto">{children}</main>
       </div>
     </div>
   );
