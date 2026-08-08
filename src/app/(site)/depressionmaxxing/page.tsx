@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SymptomsTooltip from "./SymptomsTooltip";
 
 export const metadata: Metadata = {
   title: "Depressionmaxxing — Santi Weight",
@@ -37,11 +38,7 @@ export default function DepressionmaxxingPage() {
         </h3>
         <p>
           In medicine, depression is a cluster of symptoms that characterize
-          malaise and reduction in mood{" "}
-          <a href="#footnote-1" className="text-blue-600 hover:underline">
-            [1]
-          </a>
-          .
+          malaise and reduction in mood <SymptomsTooltip />.
         </p>
         <p>
           In culture it typically means something like low-mood, or an inability
@@ -221,21 +218,6 @@ export default function DepressionmaxxingPage() {
           start living a more meaningful life as a result!
         </p>
 
-        <hr className="border-gray-200 my-6" />
-
-        <p id="footnote-1" className="text-xs text-gray-400">
-          [1] Diagnostic symptoms of major depressive disorder:
-          <br />
-          <strong>Mood</strong> — persistent sadness or emptiness;{" "}
-          <strong>Anhedonia</strong> — nothing feels good anymore;{" "}
-          <strong>Weight</strong> — appetite up or down;{" "}
-          <strong>Sleep</strong> — too little or too much;{" "}
-          <strong>Psychomotor</strong> — visibly slowed or restless;{" "}
-          <strong>Fatigue</strong> — no energy, most days;{" "}
-          <strong>Worthlessness</strong> — worthless or excessively guilty;{" "}
-          <strong>Concentration</strong> — can&apos;t think or decide;{" "}
-          <strong>Death</strong> — recurring thoughts of dying
-        </p>
       </div>
     </article>
   );
