@@ -80,7 +80,7 @@ function DotCard({ dot }: { dot: Dot }) {
     <div id={`dot-${dot.id}`} className="border border-gray-200 rounded-lg px-4 py-3">
       <div className="flex justify-between items-baseline gap-3 mb-1">
         <p className="font-semibold text-gray-900 text-xs">
-          {dot.reviewer === "Santi Weight" ? "Santi Weight" : dot.title}
+          {dot.reviewer === "Santi Weight" ? "From Myself" : dot.title}
           {dot.topic && (
             <span className="font-normal text-gray-400">
               {" "}({dot.topic})
